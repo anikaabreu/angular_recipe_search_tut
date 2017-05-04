@@ -1,0 +1,23 @@
+[2017-05-04T12:57:31,531][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-04T12:57:31,693][INFO ][o.e.e.NodeEnvironment    ] [3xuLHUc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [65.4gb], net total_space [111.8gb], spins? [unknown], types [hfs]
+[2017-05-04T12:57:31,694][INFO ][o.e.e.NodeEnvironment    ] [3xuLHUc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-04T12:57:31,695][INFO ][o.e.n.Node               ] node name [3xuLHUc] derived from node ID [3xuLHUcTT7Kmk5D8ikOp4g]; set [node.name] to override
+[2017-05-04T12:57:31,696][INFO ][o.e.n.Node               ] version[5.3.2], pid[7303], build[3068195/2017-04-24T16:15:59.481Z], OS[Mac OS X/10.11.6/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-05-04T12:57:33,682][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [aggs-matrix-stats]
+[2017-05-04T12:57:33,683][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [ingest-common]
+[2017-05-04T12:57:33,684][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [lang-expression]
+[2017-05-04T12:57:33,685][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [lang-groovy]
+[2017-05-04T12:57:33,685][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [lang-mustache]
+[2017-05-04T12:57:33,686][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [lang-painless]
+[2017-05-04T12:57:33,686][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [percolator]
+[2017-05-04T12:57:33,686][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [reindex]
+[2017-05-04T12:57:33,686][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [transport-netty3]
+[2017-05-04T12:57:33,686][INFO ][o.e.p.PluginsService     ] [3xuLHUc] loaded module [transport-netty4]
+[2017-05-04T12:57:33,687][INFO ][o.e.p.PluginsService     ] [3xuLHUc] no plugins loaded
+[2017-05-04T12:57:37,856][INFO ][o.e.n.Node               ] initialized
+[2017-05-04T12:57:37,857][INFO ][o.e.n.Node               ] [3xuLHUc] starting ...
+[2017-05-04T12:57:38,181][INFO ][o.e.t.TransportService   ] [3xuLHUc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-04T12:57:41,270][INFO ][o.e.c.s.ClusterService   ] [3xuLHUc] new_master {3xuLHUc}{3xuLHUcTT7Kmk5D8ikOp4g}{kaOy_eqCQ9uaZnJ9K_cYsQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-04T12:57:41,299][INFO ][o.e.h.n.Netty4HttpServerTransport] [3xuLHUc] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-05-04T12:57:41,305][INFO ][o.e.n.Node               ] [3xuLHUc] started
+[2017-05-04T12:57:41,312][INFO ][o.e.g.GatewayService     ] [3xuLHUc] recovered [0] indices into cluster_state
