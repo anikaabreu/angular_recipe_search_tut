@@ -21,3 +21,10 @@
 [2017-05-04T12:57:41,299][INFO ][o.e.h.n.Netty4HttpServerTransport] [3xuLHUc] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
 [2017-05-04T12:57:41,305][INFO ][o.e.n.Node               ] [3xuLHUc] started
 [2017-05-04T12:57:41,312][INFO ][o.e.g.GatewayService     ] [3xuLHUc] recovered [0] indices into cluster_state
+[2017-05-04T13:21:25,898][INFO ][o.e.c.m.MetaDataCreateIndexService] [3xuLHUc] [recipes] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2017-05-04T13:21:26,456][INFO ][o.e.c.m.MetaDataMappingService] [3xuLHUc] [recipes/QS4LnjBUT0SpbAG1QmFFyQ] create_mapping [recipe]
+[2017-05-04T13:21:28,233][INFO ][o.e.m.j.JvmGcMonitorService] [3xuLHUc] [gc][1426] overhead, spent [392ms] collecting in the last [1s]
+[2017-05-04T13:59:15,409][INFO ][o.e.n.Node               ] [3xuLHUc] stopping ...
+[2017-05-04T13:59:15,468][INFO ][o.e.n.Node               ] [3xuLHUc] stopped
+[2017-05-04T13:59:15,468][INFO ][o.e.n.Node               ] [3xuLHUc] closing ...
+[2017-05-04T13:59:15,482][INFO ][o.e.n.Node               ] [3xuLHUc] closed
